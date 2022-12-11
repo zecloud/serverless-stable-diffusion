@@ -1,0 +1,11 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+torch==1.12.1 --extra-index-url https://download.pytorch.org/whl/cpu
+torchvision==0.13.1 --extra-index-url https://download.pytorch.org/whl/cpu
+diffusers 
+transformers 
+scipy
+accelerate
